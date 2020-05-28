@@ -1,6 +1,8 @@
 # COVID-19-CT-CXR
 
-## Citing NegBio
+Under construction.
+
+## Citing COVID-19-CT-CXR
 
 If you're using this dataset, please cite:
 
