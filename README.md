@@ -8,7 +8,7 @@ COVID-19-CT-CXR is a public database of COVID-19 CXR and CT images, which are au
 
 * `covid_figure_list.csv` consists of COVID-19 CXR and CT image list. Each row includes PMCID, figure url, subfigure location (left x upper _ right x lower pixel coordinate), and the label.
 * `convid_figure_text.xml` consists of relevant text.
-* a local copy of all figures can be found at [fake url]()
+* a local copy of all figures can be found at [Releases](https://github.com/yfpeng/COVID-19-CT-CXR/releases)
 
 ## Citing COVID-19-CT-CXR
 
