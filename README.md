@@ -6,19 +6,19 @@
 
 COVID-19-CT-CXR is a public database of COVID-19 CXR and CT images, which are automatically extracted from COVID-19-relevant articles from the PubMed Central Open Access (PMC-OA) Subset. 
 
-* `covid_figure_list.csv` consists of COVID-19 CXR and CT image list. Each row includes PMCID, figure url, subfigure location (left x upper _ right x lower pixel coordinate), and the label.
-* `convid_figure_text.xml` consists of relevant text.
+* `mmddyyyy.litcovid.released.csv` consists of COVID-19 CXR and CT image list. Each row includes PMCID, figure url, subfigure location (left x upper _ right x lower pixel coordinate), and the label.
+* `mmddyyyy.litcovid.released.json` consists of relevant text.
 * a local copy of all figures can be found at [Releases](https://github.com/yfpeng/COVID-19-CT-CXR/releases)
 
 ## Citing COVID-19-CT-CXR
 
 If you're using this dataset, please cite:
 
-```
-Peng Y, Tang YX, Lee S, Zhu Y, Summers RM, Lu Z. COVID-19-CT-CXR: a freely
+
+Peng Y, Tang YX, Lee S, Zhu Y, Summers RM, Lu Z. [COVID-19-CT-CXR: a freely
 accessible and weakly labeled chest X-ray and CT image collection on COVID-19
-from the biomedical literature. 2020.
-```
+from the biomedical literature](https://arxiv.org/abs/2006.06177). arxiv:2006.06177. 2020.
+
 
 ## Acknowledgments
 
