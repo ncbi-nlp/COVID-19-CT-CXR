@@ -8,6 +8,39 @@ COVID-19-CT-CXR is a public database of COVID-19 CXR and CT images, which are au
 
 The annotations, relevant text, and a local copy of figures can be found at [Releases](https://github.com/ncbi-nlp/COVID-19-CT-CXR/releases/)
 
+## Get started
+
+### Prepare virtual environment
+
+```bash
+$ git clone https://github.com/ncbi-nlp/COVID-19-CT-CXR.git
+$ cd path/to/COVID-19-CT-CXR
+$ virtualenv -p python3 /path/to/venv
+$ source /path/to/venv
+$ pip -r requirements.txt
+```
+
+## Prepare source file
+
+1. Go to https://www.ncbi.nlm.nih.gov/research/coronavirus/#data-download
+2. Download the "CSV" file: `/path/to/litcovid.export.csv`
+
+## Run the script
+
+Change the paths in `run_keys_db.sh`
+
+```text
+source_dir=$HOME'/path/to/COVID-19-CT-CXR'
+venv_dir=$HOME'/path/to/venv'
+top_dir=$HOME'/path/to/litcovid.export.tsv'
+```
+
+```bash
+$ bash run_keys.sh step1 step2 step3 step4 step5 step6 step7 step8
+```
+
+The output is at `/path/to/litcovid.figure_text.json`
+
 ## Citing COVID-19-CT-CXR
 
 If you're using this dataset, please cite:
