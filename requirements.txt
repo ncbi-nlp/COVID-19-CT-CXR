@@ -5,5 +5,5 @@ tqdm
 biopython
 bioc
 Pillow
-tensorflow==2.2.0
+tensorflow==2.2.1
 keras
