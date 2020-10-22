@@ -1,5 +1,3 @@
-# Under construction
-
 # COVID-19-CT-CXR
 
 ## Description
@@ -20,26 +18,22 @@ $ source /path/to/venv
 $ pip -r requirements.txt
 ```
 
-## Prepare source file
+### Prepare source file
 
 1. Go to https://www.ncbi.nlm.nih.gov/research/coronavirus/#data-download
 2. Download the "CSV" file: `/path/to/litcovid.export.csv`
 
-## Run the script
+### Run the script
 
-Change the paths in `run_keys_db.sh`
+Run the following scripts in order:
 
-```text
-source_dir=$HOME'/path/to/COVID-19-CT-CXR'
-venv_dir=$HOME'/path/to/venv'
-top_dir=$HOME'/path/to/litcovid.export.tsv'
-```
-
-```bash
-$ bash run_keys.sh step1 step2 step3 step4 step5 step6 step7 step8
-```
-
-The output is at `/path/to/litcovid.figure_text.json`
+1. get_bioc.py
+2. get_medline.py
+3. get_figure_url.py
+4. get_figures.py
+5. split_figures.py
+6. classify_cxr_ct.py
+7. get_figure_text.py
 
 ## Citing COVID-19-CT-CXR
 
